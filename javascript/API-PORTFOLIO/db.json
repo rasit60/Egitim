@@ -1,0 +1,27 @@
+{
+    "subtitle": " senior developerrrr",
+    "skills": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqG7vNkn089n-V0BSebTvBc8f0ZLmA3YvW9w&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Gf-gTXjuE9CZ-F9tpGXv0cDcqgx2E119xQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhhd-fP2FQq7bMC1eHTQ-w1172Nq9Vs9zaw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqG7vNkn089n-V0BSebTvBc8f0ZLmA3YvW9w&usqp=CAU"
+    ],
+    "aboutMe": "about me json dan",
+    "socialMedias": [
+        {
+            "name": "linkedIn",
+            "url": "https://www.linkedin.com/in/taner-saydam-b26336222/ ",
+            "icon": "fa-brands fa-linkedin "
+        },
+        {
+            "name": "instagram",
+            "url": "https://twitter.com/TanerSayda3308 ",
+            "icon": "fa-brands fa-instagram "
+        },
+        {
+            "name": "youtube",
+            "url": " https://www.youtube.com/?app",
+            "icon": "fa-brands fa-youtube "
+        }
+    ]
+}

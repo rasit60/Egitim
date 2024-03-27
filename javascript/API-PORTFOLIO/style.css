@@ -1,0 +1,45 @@
+#header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div img {
+    width: 120px;
+    height: 80px;
+    border-radius: 30%;
+
+
+}
+
+div {
+    background-color: #5503;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    border: 1px solid;
+
+
+
+
+}
+
+#aboutMe {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#socialMedia  {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    font-size: 30px;
+    
+}
+

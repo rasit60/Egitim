@@ -1,0 +1,34 @@
+.row1 .cart {
+    width: 200px;
+   border-radius: 50%;
+   padding:10px;
+   background-color: rgba(42, 134, 165, 0.469);
+   display: flex;
+   justify-content: center;
+}
+img{
+       border-radius: 50%;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.row2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+.row3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    background-color:rgba(64, 209, 51, 0.24);
+}
+/* 
+#input{
+    display: none;
+} */

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./portfoy.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="row1">
+        <div class="cart">
+            <img src="https://th.bing.com/th/id/OIP.XhV9MwJXLig6inRBEZLuXwHaJc?w=142&h=181&c=7&r=0&o=5&dpr=1.1&pid=1.7"
+                alt="...">
+        </div>
+
+    </div>
+
+    <hr>
+    <hr>
+
+    <div class="row2">  
+        <div>
+            <div style="display: none; position: relative;" id="titleDiv">
+                <h5 id="cardTitle"></h5>  
+                <i style="position: absolute; top: 0; right: -10px;" onclick="edit()" class="fa-solid fa-edit"></i>
+            </div>
+            <di style="display: block;" id="inputDiv">
+                <input id="input" class="form-control mb-2" type="text">
+                <button onclick="changeTitle()" id="inputButton" class="btn btn-primary"> Başlık Değiştir</button>
+            </div>            
+        </div>
+    </div>
+
+    <p>Yetenekler</p> 
+
+    <row class="row3 ">
+        
+
+        <p>
+            <button id="propertyBtn1" class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                Kolay Soyulur
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                <div class="card card-body" style="width: 300px;">
+                    Gayet İnce kabukludur ve kolay soyulur
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+                Suludur
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                <div class="card card-body" style="width: 300px;">
+                    çok suludur tatlıdır
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                Seçiçilik
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                <div class="card card-body" style="width: 300px;">
+                  iyisini dağda Ayılar, şehirde beyler 
+                </div>
+            </div>
+        </div>
+
+    </row>
+
+    <div id="propertyButton" class="row4 d-flex  justify-content-end  mt-3">
+        <button onclick="addProperty()" class="btn btn-outline-primary">
+            <i class="fa-solid fa-plus"></i> Özellik Ekle</button>
+    </div>
+   
+
+    <div style="display: none;" id="inputgroupForm" class="form-group">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup1">Default</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup2">Default</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup3">Default</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button onclick="hideformProperty()" class="btn btn-outline-primary">
+            <i class="fa-solid fa-square-minus"></i>Formu gizle</button>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/a635bcfe4d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./portfoy.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
